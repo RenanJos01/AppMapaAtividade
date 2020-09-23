@@ -41,7 +41,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //-23.6877107,-46.6739735
         // Add a marker in Sydney and move the camera
         LatLng etecia = new LatLng(-23.6877107, -46.6739735);
-        mMap.addMarker(new MarkerOptions().position(etecia).title("Etec Irmã Agostina"));
+        mMap.addMarker(new MarkerOptions().position(etecia).title("Localização Teste"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(etecia, 18));
     }
 }
